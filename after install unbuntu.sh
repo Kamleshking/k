@@ -1,5 +1,5 @@
-apt update
-apt upgrade
+apt update -y
+apt upgrade -y
 apt install wget curl git npm nano nodejs openjdk-8-jdk openjdk-8-jre -y
 source <(curl -fsSL https://raw.githubusercontent.com/efxtv/npm/main/apktool/apktool-kali-ubuntu.sh)
  git clone https://github.com/efxtv/L3MON
